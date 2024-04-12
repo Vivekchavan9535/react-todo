@@ -49,7 +49,7 @@ function App() {
 
   const deleteHandler = (i) => {
     let copytask = [...mainTask]
-    copytask.splice(i)
+    copytask.splice(i,1)
     setMainTask(copytask)
 
   }
